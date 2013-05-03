@@ -50,7 +50,7 @@ if (isset($_GET['toggle'])) {
     }
 }
 
-$db = new PDO('mysql:host=localhost;dbname=whacklab', 'root', 'adminad');
+$db = new Database();
 
 $user = new User;
 $isLoggedIn = $user->isLoggedIn();
