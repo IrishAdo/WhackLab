@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Web Hack Lab v0.0.1</title>
-</head>
-<body>
-
-</body>
-</html>
+<?php include('header.php'); ?>
+            <section class="block">
+                <h1>:: Homepage</h1>
+            </section>
+<?php include('footer.php'); ?>
