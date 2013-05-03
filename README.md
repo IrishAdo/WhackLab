@@ -12,10 +12,10 @@ work on WhackLab please create configuration.php and add the following
 ```php
 return array(
     'db' => array(
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => 'adminad',
-        'database' => 'whacklab'
+        'hostname' => 'yourhost',
+        'username' => 'youruser',
+        'password' => 'yourpass',
+        'database' => 'yourdbname'
     )
 );
 ```
